@@ -1,0 +1,17 @@
+{
+  "name": "image_search",
+  "version": "1.0.0",
+  "description": "Image search abstraction layer",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "expressjs": "^1.0.1",
+    "google-search": "0.0.5"
+  }
+}
